@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node app.js",
-    "test": "node --test test/**/*.test.js",
+    "test": "node --test test/queue.test.js test/rank.test.js",
     "lint": "node --check app.js && node --check src/bot.js && node --check src/config.js && node --check src/queue.js && node --check src/steam.js && node --check src/health.js && node --check src/logger.js"
   },
   "keywords": [
