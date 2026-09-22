@@ -148,17 +148,6 @@ Workflow: [`.github/workflows/ci.yml`](.github/workflows/ci.yml)
 
 ---
 
-## What this shows on a CV (DevOps)
-
-- Multi-stage Docker images, non-root user, image healthcheck  
-- Compose for local parity with production-ish settings  
-- Kubernetes Deployment with liveness/readiness probes and Secret injection  
-- GitHub Actions pipeline (test gate → image build)  
-- Structured logs and explicit config validation  
-- Graceful `SIGINT` / `SIGTERM` shutdown for the bot process  
-
----
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
